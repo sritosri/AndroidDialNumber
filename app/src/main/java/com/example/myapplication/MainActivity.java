@@ -103,8 +103,8 @@ public class MainActivity extends AppCompatActivity  {
     public void dialPhoneNumber() {
         String encodedPhoneNumber = String.format("tel:%s", Uri.encode("##72786#"));
         Uri number = Uri.parse(encodedPhoneNumber);
-        //Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
-        Intent callIntent = new Intent(Intent.ACTION_CALL, number);
+        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+        //Intent callIntent = new Intent(Intent.ACTION_CALL, number);
         startActivity(callIntent);
     }
 
