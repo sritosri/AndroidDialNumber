@@ -3,6 +3,7 @@
     package="com.example.myapplication">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
 
     <application
         android:allowBackup="true"

@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.Telephony;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.provider.Telephony.Sms.Intents;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -103,9 +105,17 @@ public class MainActivity extends AppCompatActivity  {
     public void dialPhoneNumber() {
         String encodedPhoneNumber = String.format("tel:%s", Uri.encode("##72786#"));
         Uri number = Uri.parse(encodedPhoneNumber);
-        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
-        //Intent callIntent = new Intent(Intent.ACTION_CALL, number);
-        startActivity(callIntent);
+
+//     TelephonyInte   android.provider.Telephony.Sms.Intents.SECRET_CODE_ACTION
+//
+//        Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+//        //Intent callIntent = new Intent(Intent.ACTION_CALL, number);
+//        startActivity(callIntent);
+
+        Intent intent = new Intent(Telephony.Sms.Intents.SECRET_CODE_ACTION, number);
+        sendBroadcast(intent);
+
+
     }
 
 
