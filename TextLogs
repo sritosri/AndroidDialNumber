@@ -1,0 +1,54 @@
+2021-09-08 23:01:12.116 26669-26669/? I/art: Late-enabling -Xcheck:jni
+2021-09-08 23:01:12.150 26669-26669/fr.simon.marquis.secretcodes W/System: ClassLoader referenced unknown path: /data/app/fr.simon.marquis.secretcodes-2/lib/arm64
+2021-09-08 23:01:12.116 26669-26669/? I/art: Late-enabling -Xcheck:jni
+2021-09-08 23:01:12.150 26669-26669/fr.simon.marquis.secretcodes W/System: ClassLoader referenced unknown path: /data/app/fr.simon.marquis.secretcodes-2/lib/arm64
+2021-09-08 23:01:12.116 26669-26669/? I/art: Late-enabling -Xcheck:jni
+2021-09-08 23:01:12.150 26669-26669/fr.simon.marquis.secretcodes W/System: ClassLoader referenced unknown path: /data/app/fr.simon.marquis.secretcodes-2/lib/arm64
+2021-09-08 23:01:12.221 26669-26669/fr.simon.marquis.secretcodes W/Settings: Setting airplane_mode_on has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+2021-09-08 23:01:12.227 26669-26669/fr.simon.marquis.secretcodes E/Loader: onCreateLoader
+2021-09-08 23:01:12.271 26669-26689/fr.simon.marquis.secretcodes I/Adreno: QUALCOMM build                   : 6aae09e, Id13463b0b3
+    Build Date                       : 06/19/20
+    OpenGL ES Shader Compiler Version: XE031.09.00.04
+    Local Branch                     : 
+    Remote Branch                    : 
+    Remote Branch                    : 
+    Reconstruct Branch               : 
+2021-09-08 23:01:12.273 26669-26688/fr.simon.marquis.secretcodes W/System: ClassLoader referenced unknown path: 
+2021-09-08 23:01:12.273 26669-26688/fr.simon.marquis.secretcodes W/System: ClassLoader referenced unknown path: /system/priv-app/BTPairingUtility/lib/arm64
+2021-09-08 23:01:12.277 26669-26688/fr.simon.marquis.secretcodes D/ApplicationLoaders: ignored Vulkan layer search path /system/priv-app/BTPairingUtility/lib/arm64:/system/lib64:/vendor/lib64 for namespace 0x7f932120f0
+2021-09-08 23:01:12.279 26669-26689/fr.simon.marquis.secretcodes I/OpenGLRenderer: Initialized EGL, version 1.4
+2021-09-08 23:01:12.279 26669-26689/fr.simon.marquis.secretcodes D/OpenGLRenderer: Swap behavior 1
+2021-09-08 23:01:12.526 26669-26688/fr.simon.marquis.secretcodes W/ResourceType: ResTable_typeSpec entry count inconsistent: given 136, previously 162
+2021-09-08 23:01:12.561 26669-26688/fr.simon.marquis.secretcodes W/ResourceType: No known package when getting value for resource number 0x7f0c0018
+2021-09-08 23:01:12.562 26669-26688/fr.simon.marquis.secretcodes W/PackageManager: Failure retrieving text 0x7f0c0018 in package android
+    android.content.res.Resources$NotFoundException: String resource ID #0x7f0c0018
+        at android.content.res.Resources.getText(Resources.java:335)
+        at android.app.ApplicationPackageManager.getText(ApplicationPackageManager.java:1512)
+        at fr.simon.marquis.secretcodes.Crawler.getBestString(Crawler.java:144)
+        at fr.simon.marquis.secretcodes.Crawler.crawl(Crawler.java:120)
+        at fr.simon.marquis.secretcodes.SecretCodeLoader.loadInBackground(SecretCodeLoader.java:32)
+        at fr.simon.marquis.secretcodes.SecretCodeLoader.loadInBackground(SecretCodeLoader.java:16)
+        at android.support.v4.content.AsyncTaskLoader.onLoadInBackground(AsyncTaskLoader.java:296)
+        at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:54)
+        at android.support.v4.content.AsyncTaskLoader$LoadTask.doInBackground(AsyncTaskLoader.java:42)
+        at android.support.v4.content.ModernAsyncTask$2.call(ModernAsyncTask.java:128)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1133)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:607)
+        at java.lang.Thread.run(Thread.java:761)
+2021-09-08 23:01:12.842 26669-26688/fr.simon.marquis.secretcodes W/ResourceType: ResTable_typeSpec entry count inconsistent: given 67, previously 69
+2021-09-08 23:01:13.398 26669-26705/fr.simon.marquis.secretcodes W/ResourceType: No package identifier when getting value for resource number 0x00000000
+2021-09-08 23:01:13.406 26669-26704/fr.simon.marquis.secretcodes W/ResourceType: No package identifier when getting value for resource number 0x00000000
+2021-09-08 23:01:13.411 26669-26705/fr.simon.marquis.secretcodes W/ResourceType: No package identifier when getting value for resource number 0x00000000
+2021-09-08 23:01:13.415 26669-26706/fr.simon.marquis.secretcodes W/ResourceType: No package identifier when getting value for resource number 0x00000000
+2021-09-08 23:01:13.418 26669-26704/fr.simon.marquis.secretcodes W/ResourceType: No package identifier when getting value for resource number 0x00000000
+2021-09-08 23:01:20.664 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: mAcquireFunc method = public int com.qualcomm.qti.Performance.perfLockAcquire(int,int[])
+2021-09-08 23:01:20.664 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: mReleaseFunc method = public int com.qualcomm.qti.Performance.perfLockRelease()
+2021-09-08 23:01:20.664 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: mAcquireTouchFunc method = public int com.qualcomm.qti.Performance.perfLockAcquireTouch(android.view.MotionEvent,android.util.DisplayMetrics,int,int[])
+2021-09-08 23:01:20.664 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: mIOPStart method = public int com.qualcomm.qti.Performance.perfIOPrefetchStart(int,java.lang.String)
+2021-09-08 23:01:20.664 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: mIOPStop method = public int com.qualcomm.qti.Performance.perfIOPrefetchStop()
+2021-09-08 23:01:20.667 26669-26669/fr.simon.marquis.secretcodes V/BoostFramework: BoostFramework() : mPerf = com.qualcomm.qti.Performance@53af7f1
+2021-09-08 23:01:21.118 26669-26673/fr.simon.marquis.secretcodes I/art: Do partial code cache collection, code=21KB, data=26KB
+2021-09-08 23:01:21.119 26669-26673/fr.simon.marquis.secretcodes I/art: After code cache collection, code=17KB, data=24KB
+2021-09-08 23:01:21.119 26669-26673/fr.simon.marquis.secretcodes I/art: Increasing code cache capacity to 128KB
+2021-09-08 23:01:21.527 26669-26704/fr.simon.marquis.secretcodes W/ResourceType: No known package when getting value for resource number 0x7f0b0000
